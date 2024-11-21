@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="IMG/header.svg" type="image/x-icon">
+    <title>CarbonZERO</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/all.css" rel="stylesheet">
+    <link href="CSS/home.css" rel="stylesheet">
+</head>
+<body>  
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="IMG/logo.svg" alt="Logo CarbonZERO">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="solutions.html">Soluções</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Quem nós somos</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Cadastre-se</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero text-center d-flex flex-column justify-content-center">
+        <div class="container d-flex flex-column align-items-center">
+            <h1 class="lead1 mb-1">Carbono Certificado</h1>
+            <p class="lead2 mb-5">Futuro sustentável de forma automatizada</p>
+            <p class="text-start col-md-5 mb-5">Plataforma automatizada:<br>A plataforma coleta, calcula e gera automaticamente os créditos de carbono com base em dados de suas operações, eliminando a necessidade de processos manuais complexos.</p>
+            <a href="#" class="btn btn-custom mt-3 col-md-5">Ver plataforma</a>
+        </div>
+    </section>
+
+    <!-- Informações sobre Créditos de Carbono -->
+    <section class="info-section py-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Vídeo -->
+                <div class="col-md-6 mb-4 mb-md-0 align-items-center mx-5">
+                    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/XXXXXX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <!-- Texto -->
+                <div class="col-md-4 mx-5 ">
+                    <h2>O que é crédito de carbono e como posso utilizar para a minha empresa?</h2>
+                    <p>Os créditos de carbono são criados quando uma empresa ou organização consegue reduzir ou capturar uma tonelada de dióxido de carbono da atmosfera. Isso ocorre ao substituir práticas que geram emissões de gases de efeito estufa por alternativas que diminuem ou eliminam essas emissões. Um exemplo seria a substituição de fontes de energia não renováveis por fontes renováveis, como a energia solar, eólica ou de biomassa.</p>
+                    <a href="#" class="btn btn-custom mt-3 w-100">Ver mais informações</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section class="form-section py-5 text-white">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <!-- Texto -->
+                <div class="col-md-4 mb-4 mb-md-0 mx-5">
+                    <h2 class="lead1 mb-4">Seja um parceiro:</h2>
+                    <p class="lead2 mb-4 ">Transforme energia no seu futuro.</p>
+                    <p>A Carbon Zer0 facilita a emissão automática de certificados de crédito de carbono, tornando o processo mais simples e rápido. Com integração às plataformas de energia solar, eólica e também ao gerenciamento de plantações, o certificado está ao seu alcance com apenas alguns cliques.</p>
+                </div>
+                <!-- Formulário -->
+                <div class="col-md-4 mx-5 bg-black py-1 rounded">
+                    <form class="py-3" id="formularioContato">
+                        <p class="lead3">Fale conosco</p>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome completo:</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo">
+                            <small id="erroNome" class="text-danger mt-2" style="display: none;">Por favor, insira seu nome completo.</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Digite aqui o seu e-mail">
+                            <small id="erroEmail" class="text-danger mt-2" style="display: none;">Por favor, insira um e-mail válido.</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label">Número de telefone:</label>
+                            <input type="text" class="form-control" id="telefone" placeholder="XX XXXXX-XXXX">
+                            <small id="erroTelefone" class="text-danger mt-2" style="display: none;">Por favor, insira um número de telefone válido no formato: XX 9XXXX-XXXX.</small>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem:</label>
+                            <textarea class="form-control" id="mensagem" rows="3" placeholder="Digite aqui sua mensagem"></textarea>
+                            <small id="erroMensagem" class="text-danger mt-2" style="display: none;">A mensagem deve ter entre 30 e 500 caracteres.</small>
+                        </div>
+                        <button type="submit" class="btn btn-custom w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p><strong>Endereço</strong><br>Avenida de endereço, 123<br>Bairro da Empresa - SP - 123456-78</p>
+                </div>
+                <div class="col-md-4">
+                    <p><strong>Zer0 Carbon</strong><br>CNPJ: 12345-6789/0001-12<br>&copy;2024</p>
+                </div>
+                <div class="col-md-4">
+                    <p><strong>Contatos</strong><br>+55 (11) 12345-7890<br>Zer0@carbon.com.br</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./JS/contact.js"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.lead1 {
+    font-weight: 200;
+    font-size: 4em;
+}
+
+.lead2 {
+    font-weight: 200;
+    font-size: 2em;
+    text-align: left;
+}
+
+.lead3 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.lead4 {
+    color: var(--bs-primary-alternative);
+}
+
+
+
+
+
+/* Estilo para imagens de fundo */
+.hero {
+
+    background-size: cover;
+    color: white;
+
+    background-image: 
+        url('../IMG/about.jpeg');
+
+    background-position: center;
+    min-height: 35vh;
+
+}
+
+
+.hero2 {
+
+    background-size: cover;
+    color: white;
+    background-image: 
+        linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.409) 30%),
+        linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.726) 10%),
+        url('../IMG/solutions2.jpeg');
+
+    background-position: center;
+    min-height: 75vh;
+
+}
+
+.info-section {
+    background: black;
+    color: white;
+    min-height: 55vh;
+}
+
+.form-section {
+    background-image: 
+        linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 10%),
+        linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.347) 20%),
+        linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 20%),
+        linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 10%),
+        url('../IMG/home2.png');
+        
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+/* Input */
+.form-control,
+.form-select {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.form-control::placeholder {
+    color: black;
+}

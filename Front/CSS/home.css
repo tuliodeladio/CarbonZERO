@@ -1,0 +1,66 @@
+.lead1 {
+    font-weight: 300;
+    font-size: 4.5em;
+}
+
+.lead2 {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.lead3 {
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+
+
+
+.hero {
+
+    background-size: cover;
+    color: white;
+
+    background-image: 
+        linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.547) 10%),
+        linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.347) 60%),
+        linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 60%),
+        url('../IMG/background_home.png');
+
+    background-position: center;
+    min-height: 75vh;
+
+}
+
+.info-section {
+    background: black;
+    color: white;
+    min-height: 55vh;
+}
+
+.form-section {
+    background-image: 
+        linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 10%),
+        linear-gradient(to left, rgb(0, 0, 0), rgba(0, 0, 0, 0.347) 20%),
+        linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 20%),
+        linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.296) 10%),
+        url('../IMG/home2.png');
+        
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+
+
+/* Input */
+.form-control,
+.form-select {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+.form-control::placeholder {
+    color: black;
+}

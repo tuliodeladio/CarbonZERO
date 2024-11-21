@@ -1,0 +1,29 @@
+.register-base {
+    border-top: 1px #CED4DA solid;
+}
+
+.register-form {
+    background-color: white;
+    
+}
+
+.register-form input {
+    margin-bottom: 15px;
+}
+
+.register-form .voltar {
+    color: var(--bs-primary-alternative) !important;
+    background-color: white !important;
+    border: solid 1px var(--bs-primary-alternative) !important;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.row,.col-md-6,.container-fluid {
+    margin: 0;
+    padding: 0;
+}
