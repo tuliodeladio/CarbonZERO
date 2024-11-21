@@ -47,7 +47,7 @@ document.getElementById('mensagem').addEventListener('input', function () {
 document.getElementById('telefone').addEventListener('input', function () {
     const entradaTelefone = this.value.trim();
     const erroTelefone = document.getElementById('erroTelefone');
-    const padraoTelefone = /^\d{2}\d{5}-\d{4}$/;
+    const padraoTelefone = /^\d{2}\s\d{5}-\d{4}$/;
 
     if (padraoTelefone.test(entradaTelefone)) {
         erroTelefone.style.display = 'none';
